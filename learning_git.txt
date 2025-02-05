@@ -1,1 +1,3 @@
 I am learning git: branching and merging.
+
+Learning rebasing in main branch.
