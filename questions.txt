@@ -1,0 +1,53 @@
+Problem Statement:
+
+Design and implement a Java Program utilizing Object-Oriented Programming (OOP) principles to demonstrate inheritance, abstraction, and method overriding. The program should consist of the following structure:
+
+Person Class (Parent Class):
+
+Contains common attributes such as name, age, and gender.
+Includes an abstract method displayDetails() for displaying details about the person.
+Employee Class (Child of Person):
+
+Inherits from Person and adds attributes like employeeId and basicSalary.
+Implements the displayDetails() method to display personal and employee-specific information.
+Contains an abstract method calculateSalary(), which calculates the salary of an employee.
+Manager Class (Child of Employee):
+
+Inherits from Employee and adds attributes such as department and bonus.
+Implements the calculateSalary() method to calculate the total salary as the sum of basicSalary and bonus.
+Overrides the displayDetails() method to include manager-specific information.
+Additional Requirements:
+
+Create a test class to demonstrate the functionality of the program.
+Allow the user to input data for a Manager object and display their details and total salary.
+Include validations such as checking if age is a positive number and ensuring bonus is non-negative.
+Engagement for Students:
+
+Add a feature to store multiple Manager and Employee objects in an array or list and display all their details.
+Include a sorting feature to sort employees/managers by their salary in descending order.
+Encourage creativity by allowing students to add new attributes or features, such as tracking performance ratings or projects handled by managers.
+This program aims to strengthen students' understanding of OOP concepts like inheritance, abstraction, and polymorphism while fostering problem-solving skills.
+
+-----
+Problem Statement:
+
+Design a program to calculate Simple Interest and determine the number of years required for the interest to equal the principal amount. The program should:
+
+Accept inputs from the user, including the principal amount, rate of interest, and time period in years.
+Calculate the Simple Interest using the formula:
+Simple Interest
+=
+Principal
+×
+Rate
+×
+Time
+100
+Simple Interest= 
+100
+Principal×Rate×Time
+​
+ 
+Determine the minimum number of years required for the total interest to become equal to or exceed the principal amount.
+Display the results, including the calculated interest and the time taken to meet the condition.
+The program should handle invalid inputs gracefully and guide the user to input appropriate values.
