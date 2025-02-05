@@ -1,3 +1,6 @@
 I am learning git: branching and merging.
 
 Learning rebasing in main branch.
+
+Learning rebase in the new-feature branch.
+
